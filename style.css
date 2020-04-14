@@ -126,3 +126,25 @@ body {
 	color: var(--mainWhite);
 }
 /* end of about img */
+/* featured */
+.featured {
+	background: var(--mainGrey);
+}
+/* end of featured */
+/* contact */
+.contact {
+	background: var(--mainGreen);
+	color: var(--mainWhite);
+}
+
+.contact-btn {
+	background: transparent;
+	border-color: 0.1rem solid var(--mainWhite);
+	color: var(--mainWhite);
+}
+
+.contact-btn:hover {
+	background: var(--mainWhite);
+	color: var(--mainGreen);
+}
+/* end of contact */
